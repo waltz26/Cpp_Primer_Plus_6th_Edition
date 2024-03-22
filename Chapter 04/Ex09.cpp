@@ -22,5 +22,7 @@ int main()
     cout<<(*CandyBar).brand<<' '<<(*CandyBar).weight<<' '<<(*CandyBar).calorie<<endl;
     cout<<(*(CandyBar+1)).brand<<' '<<(*(CandyBar+1)).weight<<' '<<(*(CandyBar+1)).calorie<<endl;
     cout<<(*(CandyBar+2)).brand<<' '<<(*(CandyBar+2)).weight<<' '<<(*(CandyBar+2)).calorie<<endl;
+
+    delete [] CandyBar;
     return 0;
 }
