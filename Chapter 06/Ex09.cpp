@@ -45,5 +45,6 @@ int main()
     if (!count2) cout<<"none"<<endl;
 
     fin.close();
+    delete [] patrons;
     return 0;
 }
