@@ -29,5 +29,6 @@ int main()
     for (int i=0;i<num;i++)
         cout<<cars[i].year<<" "<<cars[i].manufacturer<<endl;
 
+    delete [] cars;
     return 0;
 }
